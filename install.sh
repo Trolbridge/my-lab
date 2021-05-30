@@ -13,8 +13,6 @@ mkdir -p ~/.vim/undo
 mkdir -p ~/go_projects/bin
 mkdir -p ~/go_projects/pkg
 mkdir -p ~/go_projects/src
-cd /tmp
-tar -C /usr/local -xzf go1.16.4.linux-amd64.tar.gz
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
@@ -24,3 +22,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
+cd /tmp
+tar -C /usr/local -xzf go1.16.4.linux-amd64.tar.gz
