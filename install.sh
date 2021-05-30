@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt update
+#sudo apt update
 sudo apt upgrade -y
 sudo apt install neovim -y
 sudo apt install zsh -y
