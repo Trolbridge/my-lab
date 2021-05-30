@@ -79,9 +79,9 @@ set t_Co=256 "required for urxvt
 "      Miscellaneous Options
 "===================================
 set backspace=indent,eol,start
-set backupdir=~/shared/.vim/backup
-set dir=~/shared/.vim/swap
-set undodir=~/shared/.vim/undo
+set backupdir=~/.vim/backup
+set dir=~/.vim/swap
+set undodir=~/.vim/undo
 set undofile
 set formatoptions+=j    " Delete comment characters when joining lines.
 set history=1000
