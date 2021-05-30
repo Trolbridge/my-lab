@@ -10,6 +10,9 @@ sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake c
 mkdir -p ~/.vim/backup
 mkdir -p ~/.vim/swap
 mkdir -p ~/.vim/undo
+mkdir -p ~/go_projects/bin
+mkdir -p ~/go_projects/pkg
+mkdir -p ~/go_projects/src
 cd /tmp
 tar -C /usr/local -xzf go1.16.4.linux-amd64.tar.gz
 
