@@ -13,13 +13,14 @@ git config --global user.name "Trolbridge"
 sudo apt update
 #sudo apt upgrade -y
 #sudo apt install neovim -y
-#sudo apt install zsh -y
+sudo apt install zsh -y
 #sudo apt install nodejs -y
 #sudo apt install npm -y
 #sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip -y
 
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
 
