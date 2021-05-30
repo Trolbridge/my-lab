@@ -7,9 +7,6 @@ mkdir -p ~/go_projects/bin
 mkdir -p ~/go_projects/pkg
 mkdir -p ~/go_projects/src
 
-git remote add origin https://github.com/Trolbridge/my-lab.git
-git pull origin master
-git branch -M master
 git config --global user.email "dennis.mitchell.x@gmail.com"
 git config --global user.name "Trolbridge"
 
