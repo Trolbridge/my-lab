@@ -209,9 +209,9 @@ m ()
 }
 #export HOME2='/mnt/c/Users/trolb/Documents'
 source .zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-#export  PATH=$PATH:/usr/local/go/bin:$HOME2/shared/go_projects/bin
-#export GOPATH="$HOME2/shared/go_projects"
-#export GOBIN="$GOPATH/bin"
+export  PATH=$PATH:/usr/local/go/bin:$HOME/go_projects/bin
+export GOPATH="$HOME/go_projects"
+export GOBIN="$GOPATH/bin"
 
 #export XDG_CONFIG_HOME="$HOME2/shared/.config"
 export XDG_CONFIG_HOME="$HOME/.config"
