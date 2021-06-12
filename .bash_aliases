@@ -3,4 +3,4 @@ alias ga="git add"
 alias gc="git commit -am"
 alias la="ls -la"
 alias nv="nvim"
-
+alias gp="git push origin master"
